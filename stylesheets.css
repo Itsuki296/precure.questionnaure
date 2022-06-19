@@ -1,0 +1,27 @@
+header {
+margin-top: 35px; /* 上に余白を35pxつける*/
+    color: #ff00ff
+}
+
+hr{
+    border-width: 4px;
+    border-color: #2ee9a9;
+    margin: 35px 0;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold
+    margin 0;
+}
+
+.align-right{
+    text-align: right;
+}
+
+@media only screen and (max-width: 992px){
+    .radio-inline{
+        display:block;
+        margin: 0 !important;
+    }
+}
